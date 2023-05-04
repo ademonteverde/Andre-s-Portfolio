@@ -1,0 +1,383 @@
+:root {
+    --dark: #153D3C;
+    --light: #AFF7FA;
+    --Accent-color: #287374;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--Accent-color);
+    margin: 0;
+}
+
+section,
+form {
+    background-color: var(--light);
+    border-radius: 10px;
+}
+
+.side-padding {
+    padding: 0 10px;
+}
+
+h1 {
+    color: var(--light);
+    padding: 20px;
+    font-size: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--light)
+}
+
+/* nav buttons */
+ul {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    z-index: 99;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+ul a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+/* Go to Top button
+.go-to-top {
+    z-index: 99;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    background-color: green;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+} */
+
+/* about me  card*/
+.about-section {
+    padding: 150px 0;
+}
+
+.about-card {
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.about-text {
+    width: 30vw;
+}
+
+.about-text h2 {
+    padding: 10px;
+    margin: 0;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+.andre-img {
+    width: 25vw;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+
+/* cards */
+/* highlight card  */
+.portfolio h2 {
+    font-size: 30px;
+    padding: 30px 0 0 30px;
+    margin: 20px;
+}
+
+.master-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-card {
+    width: 70%;
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: 0 0 20px 0;
+    border: 5px solid var(--dark);
+    border-radius: 4px;
+
+}
+
+.main-img {
+    width: 100%;
+    opacity: 60%;
+}
+
+.main-img:hover {
+    opacity: 100%;
+    z-index: 99;
+}
+
+/* sub cards  */
+.sub-card {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px 0 20px 0;
+    width: 46%;
+    border: 5px solid var(--dark);
+    border-radius: 4px;
+}
+
+.card-container {
+    background-color: var(--dark);
+    position: relative;
+}
+
+.sub-img {
+    width: 100%;
+    opacity: 60%;
+}
+
+.sub-img:hover {
+    opacity: 100%;
+}
+
+/* inside cards */
+
+.card-text {
+    z-index: 98;
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 35px 0px;
+}
+
+.card-text h3 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    z-index: 98;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+}
+
+.card-description p {
+    font-size: 14px;
+    margin: 1px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* .img-container {
+    width: 100%;
+} */
+
+/* contact form  */
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-title {
+    padding: 50px 0 0 0;
+    font-size: 40px;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type=submit] {
+    background-color: var(--dark);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-card {
+    padding: 0 0 100px 0;
+    margin: 0 0 25px 0;
+}
+
+footer {
+    background-color: var(--light);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.social-media a:hover {
+    color: var(--dark);
+}
+
+@media screen and (max-width: 900px) {
+
+    h1 {
+        padding: 0 10px;
+        text-align: center;
+        margin: 15px 0 5px 0;
+    }
+
+    aside {
+        position: sticky;
+        top: 0px;
+        background-color: var(--Accent-color);
+        z-index: 99;
+    }
+
+    ul {
+        position: relative;
+        text-align: center;
+        top: 0;
+        margin: 5px;
+        z-index: 99;
+        background-color: transparent;
+        border-radius: 0 0 0 0;
+    }
+
+    ul a {
+        display: block;
+        font-weight: 600;
+        color: var(--light);
+        text-decoration: none;
+    }
+
+    .about-section {
+        display: flex;
+        justify-content: center;
+        padding: 90px 0;
+    }
+
+    .about-card {
+        display: block;
+        width: 95%;
+    }
+
+    .about-card span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 450px;
+        padding: 10px;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
+
+    .portfolio h2 {
+        display: flex;
+        justify-content: center;
+        margin: 20px 10px;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .sub-card {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card-text {
+        margin: 0;
+        position: relative;
+        width: auto;
+        height: auto;
+        color: var(--light);
+        padding: auto 0px;
+        overflow: hidden;
+    }
+
+    footer h3 {
+        margin: 10px;
+    }
+
+    .social-media {
+        display: block;
+        text-align: center;
+    }
+
+    .social-media a {
+        display: block;
+        padding: 5px;
+    }
+
+
+}
