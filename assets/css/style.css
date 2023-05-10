@@ -149,11 +149,15 @@ ul a {
 .card-container {
     background-color: var(--dark);
     position: relative;
+    object-fit: contain;
 }
 
 .sub-img {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
     opacity: 60%;
+    
 }
 
 .sub-img:hover {
