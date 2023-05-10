@@ -29,11 +29,8 @@ Follow these steps to complete the challenge:
 
 ## Assets
 
-The following image demonstrates the web application's appearance and functionality:
-![Example of a finished horiseon social solutions services webpage.](./assets/images/horiseon_social_solutions.png)
-
 ### Link to GitHub Repository:
-https://ademonteverde.github.io/module1_challenge/
+https://ademonteverde.github.io/Andre-s-Portfolio/
 
 ### Link to deployed application:
-https://ademonteverde.github.io/module1_challenge/
+https://ademonteverde.github.io/Andre-s-Portfolio/
