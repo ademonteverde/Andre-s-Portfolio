@@ -30,7 +30,7 @@ Follow these steps to complete the challenge:
 ## Assets
 
 ### Link to GitHub Repository:
-https://ademonteverde.github.io/Andre-s-Portfolio/
+https://github.com/ademonteverde/Andre-s-Portfolio
 
 ### Link to deployed application:
 https://ademonteverde.github.io/Andre-s-Portfolio/
